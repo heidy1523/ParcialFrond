@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="https://kit.fontawesome.com/712575d4a5.js" crossorigin="anonymous"></script>
+    <title>Parcial-Front-End</title>
+</head>
+
+<body>
+    <div class="content">
+    <div class="player">
+            <div class="player_controls">
+            <div class="player_btn player_btn--small">
+                <i class="fas fa-bars"></i>
+                </div>
+                <div class="player_btn player_btn--small">
+                <i class="fas fa-search"></i>
+                </div>
+            </div>
+            <input type="range" value="20"  min="0" class="player_nivel" />  
+            
+                <audio class="player_audio" controls id ="audio">
+                <source src="assets/Song3.mp3" type="audio/mpeg"/>
+                </audio>
+            
+
+            <div class="player_content2">
+
+                <h3 class="player_artist"> The Hunting Party</h3>
+                <h1 class="player_song">Final Masquerade</h1>
+                <h3 class="player_artist"> Linkin Park</h3>
+           
+            <div class="player_controls2">
+                <div class="player_btn player_btn--medium pass">
+                    <i class="fas fa-step-backward"></i>
+                </div>
+                <div class="player_btn player_btn--medium rosado" id="play">
+                    <i class="fas fa-play play-btn" id ="playImagen"></i>
+                    <i class="fas fa-pause pause-btn "id="pauseImagen" style="display :none;" ></i>
+                </div>
+                <div class="player_btn player_btn--medium pass">
+                    <i class="fas fa-step-forward"></i>
+                </div>
+            </div>
+            <div class="player_controls2">
+                <div class="player_btn player_btn--down">
+                    <i class="far fa-heart"></i>
+                </div>
+                <div class="player_btn player_btn--down">
+                    <i class="fas fa-random"></i>
+                </div>
+                <div class="player_btn player_btn--down">
+                    <i class="fas fa-undo-alt"></i>
+                </div>
+                <div class="player_btn player_btn--down">
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+            </div>
+            </div>
+        
+
+        </div>
+        <!--div class="player_album">
+            <img src="assets/1.jpg" alt="Cover" class="player_imagen">
+        </div-->
+    
+    </div>
+<script src="app.js"></script>
+</body>
+
+</html>
